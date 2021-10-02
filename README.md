@@ -72,7 +72,6 @@ or:
 
 for integration tests
 
-## Known issues and improvements
+## Known issues
 
-- Using external storage is slower than necessary because NextCloud request objects metadata separately during the same HTTP request. This can be improved by caching the results at the initial list operation. 
-- Under unknown circumstances a segfault seems to occur.
+- Enabling Xdebug profiling or debugging will cause a segfault
